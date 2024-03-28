@@ -7,6 +7,9 @@ import Loading from '../components/Loading';
 import CustomButton from '../components/CustomButton';
 import { AiOutlineCodepenCircle } from "react-icons/ai";
 import { BgImage } from '../assets';
+import {BsShare} from  "react-icons/bs";
+import {ImConnection} from  "react-icons/im";
+import {AiOutlineInteraction} from  "react-icons/ai";
 const Login = () => {
   const {
     register,
@@ -15,13 +18,17 @@ const Login = () => {
   } = useForm({
     mode: "onChange",
   });
+
+  const onSubmit = async(data) => {
+    
+  }
   const [errMsg, setErrMsg] = useState("");
   const [isSubmitting, stIsSubmitting] = useState(false);
   const dispatch = useDispatch();
   return (
     <div className='bg-bgcolor w-full h-[100vh] flex items-center justify-center p-6'>
       <div className='w-full md:w-2/3 h-fit lg:h-full 2xl:h-5/6 py-8 lg:py-0 flex bg-primary rounded-xl overflow-hidden shadow-xl'>
-        <div className='w-full lg:w=1/2 h-full p-10 2xl:px-20 flex flex-col justify-center'>
+        <div className='w-full lg:w-1/2 h-full p-10 2xl:px-20 flex flex-col justify-center'>
           <div className='w-full flex gap-2 items-center mb-6'>
             <div className='p-2 bg-[#000000] roundede text-white'>
               <AiOutlineCodepenCircle />
@@ -36,7 +43,8 @@ const Login = () => {
           <span className='text-sm mt-2 text-ascent-2'>
             Welcome Back
           </span>
-          <form className='py-8 flex flex-col gap-5'>
+          <form className='py-8 flex flex-col gap-5'
+            onSubmit = {handleSubmit(onsubmit)}>
             <TextInput 
             name = 'email'
             placeholder = 'email@example.com'
@@ -107,6 +115,26 @@ const Login = () => {
                 alt='Bg Image'
                 className='w-48 2xl:w-64 h-48 2xl:h-64 rounded-full object-cover'
               />
+              <div className='absolute flex items-center gap-1 bg-white right-10 top-10 py-2 px-5 rounded-full'>
+                <BsShare size={14} />
+                <span className='text-xs font-medium'>Share</span>
+              </div>
+              <div className='absolute flex items-center gap-1 bg-white left-10 top-6 py-2 px-5 rounded-full'>
+                <ImConnection />
+                <span className='text-xs font-medium'>Connect</span>
+              </div>
+              <div className='absolute flex items-center gap-1 bg-white left-12 bottom-6 py-2 px-5 rounded-full'>
+                <AiOutlineInteraction />
+                <span className='text-xs font-medium'>Interact</span>
+              </div>
+            </div>
+            <div className='mt-16 text-center'>
+              <p className='text-white text-base'>
+                Connect with freinds & have share for fun
+              </p>
+              <span className='text-sm text-white/80'>
+                Share memories with freinds and the world.
+              </span>
             </div>
           </div>
       </div>
