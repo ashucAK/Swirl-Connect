@@ -35,7 +35,7 @@ const TopBar = () => {
           <DiSublime />
         </div>
         <span className='text-xl md:text-2xl text-[#065ad8] font-semibold'>
-          ShareFun
+          Swirl Connect
         </span>
       </Link>
 
