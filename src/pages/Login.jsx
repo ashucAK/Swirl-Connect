@@ -29,18 +29,17 @@ const Login = () => {
         {/* LEFT */}
         <div className='w-full lg:w-1/2 h-full p-10 2xl:px-20 flex flex-col justify-center '>
           <div className='w-full flex gap-2 items-center mb-6'>
-            <div className='p-2 bg-[#065ad8] rounded text-white'>
+            <div className='p-2 bg-[#76787a] rounded text-white'>
               <DiSublime />
             </div>
-            <span className='text-2xl text-[#065ad8] font-semibold'>
+            <span className='text-2xl text-[#b1b4b9] font-semibold'>
               Swirl Connect
             </span>
           </div>
 
-          <p className='text-ascent-1 text-base font-semibold'>
-            Log in to your account
+          <p className='text-ascent-1 text-lg font-bold font-serif'>
+            Sign in to SC
           </p>
-          <span className='text-sm mt-2 text-ascent-2'>Welcome back</span>
 
           <form
             className='py-8 flex flex-col gap-5='
@@ -74,7 +73,7 @@ const Login = () => {
 
             <Link
               to='/reset-password'
-              className='text-sm text-right text-blue font-semibold'
+              className='text-sm text-right text-[#b1b4b9] font-semibold'
             >
               Forgot Password ?
             </Link>
@@ -106,14 +105,14 @@ const Login = () => {
             Don't have an account?
             <Link
               to='/register'
-              className='text-[#065ad8] font-semibold ml-2 cursor-pointer'
+              className='text-[#e1e3e8] font-semibold ml-2 cursor-pointer'
             >
               Create Account
             </Link>
           </p>
         </div>
         {/* RIGHT */}
-        <div className='hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-blue'>
+        <div className='hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-[#76787a]'>
           <div className='relative w-full flex items-center justify-center'>
             <img
               src={BgImage}
@@ -139,7 +138,7 @@ const Login = () => {
 
           <div className='mt-16 text-center'>
             <p className='text-white text-base'>
-              Connect with friedns & have share for fun
+              Connect with friends & have share for fun
             </p>
             <span className='text-sm text-white/80'>
               Share memories with friends and the world.
