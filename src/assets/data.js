@@ -451,8 +451,8 @@ export const postComments = [
         _id: "64df41644a4c0d47b5369f24",
       },
     ],
-    createdAt: "2023-08-18T10:00:16.352Z",
-    updatedAt: "2023-08-18T10:01:14.090Z",
+    createdAt: "2",
+    updatedAt: "2",
     __v: 1,
   },
 ];
