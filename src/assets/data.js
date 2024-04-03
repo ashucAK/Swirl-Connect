@@ -142,6 +142,25 @@ export const friends = [
     email: "user!@gmail.com",
     profession: "Full-Stack Developer",
   },
+  {
+    _id: "64df3aec4180b81adfe41d36",
+    firstName: "Sung",
+      lastName: "Jinwoo",
+    email: "joh0n@gmail.com",
+    profession: "Full-Stack Developer",
+    profileUrl:
+      "https://imgs.search.brave.com/OV-J5ySUnWTpf5mM1fpddL7teEM_6WsoU1vS0aJnSz8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zb2xv/LWxldmVsaW5nLWFu/aW1lLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNC8wMi8y/N2M0NmJmOWNkMzQ1/YWYyNmZjZTA4OTg5/NWVhM2UxYS5qcGc",
+  },
+  {
+    _id: "64df39704180b81adfe41d0bk",
+    firstName: "Sung",
+      lastName: "Jinwoo",
+    email: "james@gmail.com",
+    location: "Mumbai, India",
+    profileUrl:
+            "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
+    profession: "Game Developer",
+  },
 ];
 
 export const requests = [
@@ -156,6 +175,14 @@ export const requests = [
   {
     _id: "64df424b4a4c0d47b5369f65",
     requestFrom: friends[2],
+  },
+  {
+    _id: "64df3aec4180b81adfe41d36",
+    requestFrom: friends[3],
+  },
+  {
+    _id: "64df39704180b81adfe41d0bk",
+    requestFrom: friends[4],
   },
 ];
 
