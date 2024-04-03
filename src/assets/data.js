@@ -2,6 +2,7 @@ export const user = {
   _id: "64df3c064180b81adfe41d4b",
   firstName: "Ashish",
   lastName: "Singh",
+  profession: "Full-Stack Developer",
   email: "singhashishk12@gmail.com",
   friends: [
     {
@@ -9,6 +10,7 @@ export const user = {
       firstName: "Sung",
       lastName: "Jinwoo",
       email: "john@gmail.com",
+      profession: "Full-Stack Developer",
       friends: ["64df3c064180b81adfe41d4b", "64df39704180b81adfe41d0b"],
       views: [],
       verified: true,
@@ -23,6 +25,7 @@ export const user = {
       firstName: "Sung",
       lastName: "Jinwoo",
       email: "james@gmail.com",
+      profession: "Full-Stack Developer",
       friends: ["64df3c064180b81adfe41d4b", "64df3aec4180b81adfe41d32"],
       views: [
         "64df39704180b81adfe41d0b",
@@ -34,19 +37,39 @@ export const user = {
       ],
       verified: true,
       createdAt: "2023-08-18T09:27:12.064Z",
+      profileUrl:
+        "https://imgs.search.brave.com/EOO2kzQDWil39Z_N6gjGdz3_AFgOmzv6LfYNBKDA4sw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9h/cnRpY2xlX2Z1bGwv/bGV2ZWxzMS5qcGc",
       updatedAt: "2023-08-21T06:46:26.798Z",
       __v: 8,
       location: "Mumbai, India",
-      profession: "Full-Stack Developer",
+      profession: "Game Developer",
     },
     {
       _id: "64df424b4a4c0d47b5369f65",
       firstName: "Sung",
       lastName: "Jinwoo",
       email: "user!@gmail.com",
+      profession: "Full-Stack Developer",
       friends: ["64df3c064180b81adfe41d4b"],
       views: [],
       verified: true,
+      profileUrl:
+        "https://imgs.search.brave.com/pwH8pnuyTvcyOegZq-nQkXqhelky1ywtwMyAJX5qzig/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9w/aG90b3Mvc29sbzIu/anBn",
+      createdAt: "2023-08-18T10:04:59.677Z",
+      updatedAt: "2023-08-18T10:09:20.006Z",
+      __v: 1,
+    },
+    {
+      _id: "64df424b4a4c0d47b5369f65",
+      firstName: "Sung",
+      lastName: "Jinwoo",
+      email: "user!@gmail.com",
+      profession: "Full-Stack Developer",
+      friends: ["64df3c064180b81adfe41d4b"],
+      views: [],
+      verified: true,
+      profileUrl:
+        "https://imgs.search.brave.com/pwH8pnuyTvcyOegZq-nQkXqhelky1ywtwMyAJX5qzig/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9w/aG90b3Mvc29sbzIu/anBn",
       createdAt: "2023-08-18T10:04:59.677Z",
       updatedAt: "2023-08-18T10:09:20.006Z",
       __v: 1,
@@ -86,7 +109,7 @@ export const user = {
   createdAt: "2023-08-18T09:38:14.179Z",
   updatedAt: "2023-08-21T06:46:18.258Z",
   profileUrl:
-    "https://imgs.search.brave.com/7TRAT1vOjmltesU3YVpMo65MjMOq34NxnKzob6AgBl4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/b25lZXNwb3J0cy5n/Zy9jZG4tZGF0YS8y/MDI0LzAyL0FuaW1l/X1NvbG9MZXZlbGlu/Z19QUl8yLTEwMjR4/NTc2LmpwZw",
+            "https://imgs.search.brave.com/pwH8pnuyTvcyOegZq-nQkXqhelky1ywtwMyAJX5qzig/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9w/aG90b3Mvc29sbzIu/anBn",
   token: "hZWFmZmU3NmMiLCJpYXQiOjE2OTIwMzY5",
 };
 
@@ -95,7 +118,8 @@ export const friends = [
     _id: "64df3aec4180b81adfe41d32",
     firstName: "Sung",
       lastName: "Jinwoo",
-    email: "john@gmail.com",
+    email: "joh0n@gmail.com",
+    profession: "Full-Stack Developer",
     profileUrl:
       "https://imgs.search.brave.com/OV-J5ySUnWTpf5mM1fpddL7teEM_6WsoU1vS0aJnSz8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zb2xv/LWxldmVsaW5nLWFu/aW1lLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNC8wMi8y/N2M0NmJmOWNkMzQ1/YWYyNmZjZTA4OTg5/NWVhM2UxYS5qcGc",
   },
@@ -105,13 +129,18 @@ export const friends = [
       lastName: "Jinwoo",
     email: "james@gmail.com",
     location: "Mumbai, India",
-    profession: "Full-Stack Developer",
+    profileUrl:
+            "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
+    profession: "Game Developer",
   },
   {
     _id: "64df424b4a4c0d47b5369f65",
     firstName: "Sung",
       lastName: "Jinwoo",
+      profileUrl:
+            "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
     email: "user!@gmail.com",
+    profession: "Full-Stack Developer",
   },
 ];
 
@@ -151,6 +180,7 @@ export const posts = [
       _id: "64df39704180b81adfe41d0b",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
       profileUrl:
         "https://imgs.search.brave.com/yCzcTxGqwq6hYyQRVFHkdgd0p7smtj6mh6RZLrXLtcQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5pbWVzZW5wYWku/bmV0L3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzEyLzIwMjMx/MjEwXzEwMjUyNF80/MDZ1TGNvdjZpLTEw/MjR4NTc2LmpwZWc",
       location: "New York, USA",
@@ -170,6 +200,7 @@ export const posts = [
       _id: "64df39704180b81adfe41d0b",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
       profileUrl:
         "https://imgs.search.brave.com/48NzLxdNf_mTYJkV4296NdDCTNNMzY4XXkH3n7vm0aQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9h/cnRpY2xlX2Z1bGwv/bGV2ZWwuanBn",
       location: "Mumbai, India",
@@ -188,6 +219,9 @@ export const posts = [
       _id: "64df424b4a4c0d47b5369f65",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
+      profileUrl:
+        "https://imgs.search.brave.com/EOO2kzQDWil39Z_N6gjGdz3_AFgOmzv6LfYNBKDA4sw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9h/cnRpY2xlX2Z1bGwv/bGV2ZWxzMS5qcGc",
     },
     description:
       "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
@@ -205,6 +239,7 @@ export const posts = [
       _id: "64df3c064180b81adfe41d4b",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
       profileUrl:
         "https://imgs.search.brave.com/zJsYsSguD412fh0YoHlUAddj_uMIWLKhFk3T6vbQ8aA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9md21l/ZGlhLmZhbmRvbXdp/cmUuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDI0LzA0LzAy/MDc0NTQyL3RoaXMt/d29yay1yZXF1aXJl/ZC10aGUtaGlnaC1l/bmQtdmlzdWFscy1z/b2xvLWxldmVsaW5n/LWFuaW1lLXdyb3Rl/LWl0cy1vd24tZG9v/bS1ieS1uZWdsZWN0/aW5nLW9uZS1vZi10/aGUtYmVzdC1hc3Bl/Y3RzLWluLXRoZS1v/cmlnaW5hbC1zb3Vy/Y2UuanBn",
     },
@@ -222,6 +257,9 @@ export const posts = [
       _id: "64df424b4a4c0d47b5369f65",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
+      profileUrl:
+        "https://imgs.search.brave.com/EOO2kzQDWil39Z_N6gjGdz3_AFgOmzv6LfYNBKDA4sw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9h/cnRpY2xlX2Z1bGwv/bGV2ZWxzMS5qcGc",
     },
     description:
       " Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
@@ -239,6 +277,7 @@ export const posts = [
       _id: "64df424b4a4c0d47b5369f65",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
     },
     description:
       "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
@@ -254,8 +293,9 @@ export const posts = [
       _id: "64df3aec4180b81adfe41d32",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
       profileUrl:
-        "https://imgs.search.brave.com/9WgXtNi-FIfnw50htIUSg8y39e3kQTCarUF5NrNzzfA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/ZXZlcnl0aGluZy1h/Ym91dC1zb2xvLWxl/dmVsaW5nLWFuaW1l/LWlzLWdyZWF0LXNv/LWZhci1teS12MC04/azAwc3UydDV1ZGMx/LmpwZz93aWR0aD02/NDAmY3JvcD1zbWFy/dCZhdXRvPXdlYnAm/cz1lOGU4MzU0MGUy/MDhjZjJhNzJhYWU5/YmFkNjAyZDRlN2Rk/Mjk1ZmIy",
+            "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
     },
     description:
       " Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
@@ -271,8 +311,9 @@ export const posts = [
       _id: "64df3c064180b81adfe41d4b",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
       profileUrl:
-        "https://imgs.search.brave.com/KAh-EnG7YKZTW18YBxHjEmsGnZ4iYv356XTuKKqFWQs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/b25lZXNwb3J0cy5n/Zy9jZG4tZGF0YS8y/MDI0LzA0L0FuaW1l/X1NvbG9MZXZlbGlu/Z19TZWFzb24xX0pp/bndvb1N1bmdfRXBp/c29kZTVfQVByZXR0/eUdvb2REZWFsLTQ1/MHgyNTMuanBn",
+            "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
     },
     description:
       "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
@@ -298,8 +339,9 @@ export const posts = [
       _id: "64df39704180b81adfe41d0b",
       firstName: "Sung",
       lastName: "Jinwoo",
+      profession: "Full-Stack Developer",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874453/samples/bike.jpg",
+            "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
       location: "Mumbai, India",
     },
     description:

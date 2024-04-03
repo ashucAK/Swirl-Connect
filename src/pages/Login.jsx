@@ -105,7 +105,7 @@ const Login = () => {
             Don't have an account?
             <Link
               to='/register'
-              className='text-[#e1e3e8] font-semibold ml-2 cursor-pointer'
+              className='text-[#b1b4b9] font-semibold ml-2 cursor-pointer'
             >
               Create Account
             </Link>

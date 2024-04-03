@@ -9,7 +9,6 @@ import {
   BsPersonFillAdd,
 } from "react-icons/bs";
 import { FaTwitterSquare } from "react-icons/fa";
-import { CiLocationOn } from "react-icons/ci";
 import moment from "moment";
 
 import { NoProfile } from "../assets";
@@ -60,11 +59,6 @@ const ProfileCard = ({ user }) => {
 
         <div className='w-full flex flex-col gap-2 py-4 border-b border-[#66666645]'>
           <div className='flex gap-2 items-center text-ascent-2'>
-            <CiLocationOn className='text-xl text-ascent-1' />
-            <span>{user?.location ?? "Add Location"}</span>
-          </div>
-
-          <div className='flex gap-2 items-center text-ascent-2'>
             <BsBriefcase className=' text-lg text-ascent-1' />
             <span>{user?.profession ?? "Add Profession"}</span>
           </div>
@@ -72,12 +66,19 @@ const ProfileCard = ({ user }) => {
 
         <div className='w-full flex flex-col gap-2 py-4 border-b border-[#66666645]'>
           <p className='text-xl text-ascent-1 font-semibold'>
-            {user?.friends?.length} Friends
+            {user?.friends?.length} Followers
           </p>
 
-          <div className='flex items-center justify-between'>
-            <span className='text-ascent-2'>Who viewed your profile</span>
-            <span className='text-ascent-1 text-lg'>{user?.views?.length}</span>
+          <div className='flex items-center justify-center'>
+            <span className='text-ascent-2'>Your profile is looking great</span>
+          </div>
+
+          <div className='flex items-center justify-center'>
+            <span className='text-ascent-2'>Your work and accomplishments are being recognized</span>
+          </div>
+
+          <div className='flex items-center justify-center'>
+            <span className='text-ascent-1 text-lg'>{user?.views?.length} profile views</span>
           </div>
 
           <span className='text-base text-blue'>
