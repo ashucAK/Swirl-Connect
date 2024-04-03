@@ -1,13 +1,13 @@
 export const user = {
   _id: "64df3c064180b81adfe41d4b",
-  firstName: "Code",
-  lastName: "Wave",
-  email: "codewavewithasante@gmail.com",
+  firstName: "Ashish",
+  lastName: "Singh",
+  email: "singhashishk12@gmail.com",
   friends: [
     {
       _id: "64df3aec4180b81adfe41d32",
-      firstName: "John",
-      lastName: "Bruce",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       email: "john@gmail.com",
       friends: ["64df3c064180b81adfe41d4b", "64df39704180b81adfe41d0b"],
       views: [],
@@ -16,12 +16,12 @@ export const user = {
       updatedAt: "2023-08-18T09:49:19.475Z",
       __v: 2,
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874470/cld-sample.jpg",
+        "https://imgs.search.brave.com/EOO2kzQDWil39Z_N6gjGdz3_AFgOmzv6LfYNBKDA4sw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9h/cnRpY2xlX2Z1bGwv/bGV2ZWxzMS5qcGc",
     },
     {
       _id: "64df39704180b81adfe41d0b",
-      firstName: "James",
-      lastName: "Jackson",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       email: "james@gmail.com",
       friends: ["64df3c064180b81adfe41d4b", "64df3aec4180b81adfe41d32"],
       views: [
@@ -41,8 +41,8 @@ export const user = {
     },
     {
       _id: "64df424b4a4c0d47b5369f65",
-      firstName: "User",
-      lastName: "One",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       email: "user!@gmail.com",
       friends: ["64df3c064180b81adfe41d4b"],
       views: [],
@@ -86,31 +86,31 @@ export const user = {
   createdAt: "2023-08-18T09:38:14.179Z",
   updatedAt: "2023-08-21T06:46:18.258Z",
   profileUrl:
-    "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874454/samples/people/boy-snow-hoodie.jpg",
+    "https://imgs.search.brave.com/7TRAT1vOjmltesU3YVpMo65MjMOq34NxnKzob6AgBl4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/b25lZXNwb3J0cy5n/Zy9jZG4tZGF0YS8y/MDI0LzAyL0FuaW1l/X1NvbG9MZXZlbGlu/Z19QUl8yLTEwMjR4/NTc2LmpwZw",
   token: "hZWFmZmU3NmMiLCJpYXQiOjE2OTIwMzY5",
 };
 
 export const friends = [
   {
     _id: "64df3aec4180b81adfe41d32",
-    firstName: "John",
-    lastName: "Bruce",
+    firstName: "Sung",
+      lastName: "Jinwoo",
     email: "john@gmail.com",
     profileUrl:
-      "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874470/cld-sample.jpg",
+      "https://imgs.search.brave.com/OV-J5ySUnWTpf5mM1fpddL7teEM_6WsoU1vS0aJnSz8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zb2xv/LWxldmVsaW5nLWFu/aW1lLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNC8wMi8y/N2M0NmJmOWNkMzQ1/YWYyNmZjZTA4OTg5/NWVhM2UxYS5qcGc",
   },
   {
     _id: "64df39704180b81adfe41d0b",
-    firstName: "James",
-    lastName: "Jackson",
+    firstName: "Sung",
+      lastName: "Jinwoo",
     email: "james@gmail.com",
     location: "Mumbai, India",
     profession: "Full-Stack Developer",
   },
   {
     _id: "64df424b4a4c0d47b5369f65",
-    firstName: "User",
-    lastName: "One",
+    firstName: "Sung",
+      lastName: "Jinwoo",
     email: "user!@gmail.com",
   },
 ];
@@ -149,15 +149,15 @@ export const posts = [
     _id: "64e2fe620d7868ecff1a6a86",
     userId: {
       _id: "64df39704180b81adfe41d0b",
-      firstName: "Chris",
-      lastName: "Omar",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874454/samples/people/boy-snow-hoodie.jpg",
+        "https://imgs.search.brave.com/yCzcTxGqwq6hYyQRVFHkdgd0p7smtj6mh6RZLrXLtcQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5pbWVzZW5wYWku/bmV0L3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzEyLzIwMjMx/MjEwXzEwMjUyNF80/MDZ1TGNvdjZpLTEw/MjR4NTc2LmpwZWc",
       location: "New York, USA",
     },
     description: "Hello everyone, this is a new video. check it out. thank you",
     image:
-      "https://res.cloudinary.com/djs3wu5bg/image/upload/v1692597858/SOCIALMEDIA/hdahstpztt1fvobc13st.png",
+      "https://imgs.search.brave.com/jQlpnN94V1lQzLTchoH0Y3HAlfEw8rbWgYFtNNzl2vs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdXBl/cmhlcm9lcmEuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA3L1NvbG8tTGV2/ZWxpbmctQW5pbWUt/cmVsZWFzZS1kYXRl/LWEuanBn",
     likes: ["64df3c064180b81adfe41d4b"],
     comments: [],
     createdAt: "2023-08-21T06:04:18.297Z",
@@ -168,14 +168,14 @@ export const posts = [
     _id: "64e1cdd64baffca670364c8c",
     userId: {
       _id: "64df39704180b81adfe41d0b",
-      firstName: "Love",
-      lastName: "Banks",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874454/samples/people/boy-snow-hoodie.jpg",
+        "https://imgs.search.brave.com/48NzLxdNf_mTYJkV4296NdDCTNNMzY4XXkH3n7vm0aQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9h/cnRpY2xlX2Z1bGwv/bGV2ZWwuanBn",
       location: "Mumbai, India",
     },
     description:
-      "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ",
+      "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
     likes: ["64df39704180b81adfe41d0b"],
     comments: [],
     createdAt: "2023-08-20T08:24:54.330Z",
@@ -186,30 +186,30 @@ export const posts = [
     _id: "64df437e4a4c0d47b536a002",
     userId: {
       _id: "64df424b4a4c0d47b5369f65",
-      firstName: "User",
-      lastName: "One",
+      firstName: "Sung",
+      lastName: "Jinwoo",
     },
     description:
-      "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ",
+      "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
     likes: ["64df424b4a4c0d47b5369f65"],
     comments: ["64e2d1c977e497bd3a0bf67b"],
     createdAt: "2023-08-18T10:10:06.969Z",
     updatedAt: "2023-08-21T02:54:01.806Z",
     __v: 0,
     image:
-      "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874458/samples/imagecon-group.jpg",
+      "https://imgs.search.brave.com/PkdvtnfJ2Fr52TKswMqDo7oszwecAcPVEPo6EAsMTE4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdXBl/cmhlcm9lcmEuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA3L1NvbG8tTGV2/ZWxpbmctQW5pbWUt/cmVsZWFzZS1kYXRl/LWIuanBn",
   },
   {
     _id: "64df43714a4c0d47b5369fef",
     userId: {
       _id: "64df3c064180b81adfe41d4b",
-      firstName: "Code",
-      lastName: "Wave",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874454/samples/people/boy-snow-hoodie.jpg",
+        "https://imgs.search.brave.com/zJsYsSguD412fh0YoHlUAddj_uMIWLKhFk3T6vbQ8aA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9md21l/ZGlhLmZhbmRvbXdp/cmUuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDI0LzA0LzAy/MDc0NTQyL3RoaXMt/d29yay1yZXF1aXJl/ZC10aGUtaGlnaC1l/bmQtdmlzdWFscy1z/b2xvLWxldmVsaW5n/LWFuaW1lLXdyb3Rl/LWl0cy1vd24tZG9v/bS1ieS1uZWdsZWN0/aW5nLW9uZS1vZi10/aGUtYmVzdC1hc3Bl/Y3RzLWluLXRoZS1v/cmlnaW5hbC1zb3Vy/Y2UuanBn",
     },
     description:
-      "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ",
+      "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
     likes: ["64df39704180b81adfe41d0b"],
     comments: [],
     createdAt: "2023-08-18T10:09:53.009Z",
@@ -220,28 +220,28 @@ export const posts = [
     _id: "64df42dc4a4c0d47b5369f8a",
     userId: {
       _id: "64df424b4a4c0d47b5369f65",
-      firstName: "User",
-      lastName: "One",
+      firstName: "Sung",
+      lastName: "Jinwoo",
     },
     description:
-      " What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+      " Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
     likes: ["64df424b4a4c0d47b5369f65"],
     comments: [],
     createdAt: "2023-08-18T10:07:24.023Z",
     updatedAt: "2023-08-18T10:11:00.348Z",
     __v: 0,
     image:
-      "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874457/samples/ecommerce/leather-bag-gray.jpg",
+      "https://imgs.search.brave.com/JMOMei_AMtaByxRYtnReOwuJyhTZa14143nlwgtRnk4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9yZWNl/bnRoaWdobGlnaHRz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wNi9Tb2xv/LUxldmVsaW5nLUFu/aW1lLTEwMjR4NTc2/LmpwZw",
   },
   {
     _id: "64df42b04a4c0d47b5369f77",
     userId: {
       _id: "64df424b4a4c0d47b5369f65",
-      firstName: "User",
-      lastName: "One",
+      firstName: "Sung",
+      lastName: "Jinwoo",
     },
     description:
-      "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ",
+      "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
     likes: [],
     comments: [],
     createdAt: "2023-08-18T10:06:40.339Z",
@@ -252,13 +252,13 @@ export const posts = [
     _id: "64df41114a4c0d47b5369f02",
     userId: {
       _id: "64df3aec4180b81adfe41d32",
-      firstName: "Jomes",
-      lastName: "Gardener",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874470/cld-sample.jpg",
+        "https://imgs.search.brave.com/9WgXtNi-FIfnw50htIUSg8y39e3kQTCarUF5NrNzzfA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/ZXZlcnl0aGluZy1h/Ym91dC1zb2xvLWxl/dmVsaW5nLWFuaW1l/LWlzLWdyZWF0LXNv/LWZhci1teS12MC04/azAwc3UydDV1ZGMx/LmpwZz93aWR0aD02/NDAmY3JvcD1zbWFy/dCZhdXRvPXdlYnAm/cz1lOGU4MzU0MGUy/MDhjZjJhNzJhYWU5/YmFkNjAyZDRlN2Rk/Mjk1ZmIy",
     },
     description:
-      " What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      " Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
     likes: ["64df39704180b81adfe41d0b"],
     comments: [],
     createdAt: "2023-08-18T09:59:45.876Z",
@@ -269,13 +269,13 @@ export const posts = [
     _id: "64df3ef86c2bd953c7b43193",
     userId: {
       _id: "64df3c064180b81adfe41d4b",
-      firstName: "Code",
-      lastName: "Wave",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874454/samples/people/boy-snow-hoodie.jpg",
+        "https://imgs.search.brave.com/KAh-EnG7YKZTW18YBxHjEmsGnZ4iYv356XTuKKqFWQs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/b25lZXNwb3J0cy5n/Zy9jZG4tZGF0YS8y/MDI0LzA0L0FuaW1l/X1NvbG9MZXZlbGlu/Z19TZWFzb24xX0pp/bndvb1N1bmdfRXBp/c29kZTVfQVByZXR0/eUdvb2REZWFsLTQ1/MHgyNTMuanBn",
     },
     description:
-      "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, ",
+      "Solo Leveling is a webtoon series that takes place in a world where mysterious portals known as Gates have sprung up around the globe, connecting the human world to alternate dimensions.0 The story revolves around Sung Jinwoo, a weak hunter who gains extraordinary powers through a mysterious program, leading him to become one of the strongest hunters and conquering even the strongest dungeons.",
     likes: [
       "64df3aec4180b81adfe41d32",
       "64df424b4a4c0d47b5369f65",
@@ -290,14 +290,14 @@ export const posts = [
     updatedAt: "2023-08-21T03:36:36.745Z",
     __v: 0,
     image:
-      "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874455/samples/animals/three-dogs.jpg",
+      "https://imgs.search.brave.com/AKz9mYN_23cFhjA6OMO20r0PGnlNSAm4H3Ypnx_nUlI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLnNyY2RuLmNv/bS93b3JkcHJlc3Mv/d3AtY29udGVudC91/cGxvYWRzLzIwMjQv/MDIvamlud29vLXZz/LXJlZC1rbmlnaHQu/anBn",
   },
   {
     _id: "64df3ed06c2bd953c7b43172",
     userId: {
       _id: "64df39704180b81adfe41d0b",
-      firstName: "John ",
-      lastName: "Smith",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
         "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874453/samples/bike.jpg",
       location: "Mumbai, India",
@@ -310,7 +310,7 @@ export const posts = [
     updatedAt: "2023-08-21T03:44:36.962Z",
     __v: 0,
     image:
-      "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874453/samples/bike.jpg",
+      "https://imgs.search.brave.com/pwH8pnuyTvcyOegZq-nQkXqhelky1ywtwMyAJX5qzig/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9w/aG90b3Mvc29sbzIu/anBn",
   },
 ];
 
@@ -319,8 +319,8 @@ export const postComments = [
     _id: "64df43e04a4c0d47b536a02a",
     userId: {
       _id: "64df424b4a4c0d47b5369f65",
-      firstName: "User",
-      lastName: "One",
+      firstName: "Sung",
+      lastName: "Jinwoo",
     },
     postId: "64df3ef86c2bd953c7b43193",
     comment: "hahahah",
@@ -335,10 +335,10 @@ export const postComments = [
     _id: "64df41b14a4c0d47b5369f4d",
     userId: {
       _id: "64df39704180b81adfe41d0b",
-      firstName: "MTech",
-      lastName: "Solutions",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1692299991/SOCIALMEDIA/fvws1unsqytcqketv78w.png",
+        "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
       location: "Mumbai, India",
     },
     postId: "64df3ef86c2bd953c7b43193",
@@ -354,10 +354,10 @@ export const postComments = [
     _id: "64df41304a4c0d47b5369f0d",
     userId: {
       _id: "64df3aec4180b81adfe41d32",
-      firstName: "Akwasi",
-      lastName: "Asante",
+      firstName: "Sung",
+      lastName: "Jinwoo",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874470/cld-sample.jpg",
+        "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
     },
     postId: "64df3ef86c2bd953c7b43193",
     comment: "This dogs are too serious!",
@@ -367,10 +367,10 @@ export const postComments = [
       {
         userId: {
           _id: "64df39704180b81adfe41d0b",
-          firstName: "MTech",
-          lastName: "Solutions",
+          firstName: "Sung",
+      lastName: "Jinwoo",
           profileUrl:
-            "https://res.cloudinary.com/djs3wu5bg/image/upload/v1692299991/SOCIALMEDIA/fvws1unsqytcqketv78w.png",
+            "https://imgs.search.brave.com/iOY0Kk9lVuOVQ-PC6XkbAr3a-5MVP88A9UYbB3EKhOo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zb2xv/LWxldmVsbGluZy1h/bmltZS02NGNhMzY4/MGYyMTE3LmpwZz9j/cm9wPTAuNTYzeHc6/MS4wMHhoOzAuMDc2/OHh3LDAmcmVzaXpl/PTk4MDoq",
           location: "Mumbai, India",
         },
         from: "MTech Solutions",

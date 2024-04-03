@@ -31,10 +31,10 @@ const TopBar = () => {
   return (
     <div className='topbar w-full flex items-center justify-between py-3 md:py-6 px-4 bg-primary'>
       <Link to='/' className='flex gap-2 items-center'>
-        <div className='p-1 md:p-2 bg-[#065ad8] rounded text-white'>
+        <div className='p-1 md:p-2 bg-[#76787a] rounded text-white'>
           <DiSublime />
         </div>
-        <span className='text-xl md:text-2xl text-[#065ad8] font-semibold'>
+        <span className='text-xl md:text-2xl text-[#b1b4b9] font-semibold'>
           Swirl Connect
         </span>
       </Link>
