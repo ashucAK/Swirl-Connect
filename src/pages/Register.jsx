@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
-import { TbSocial } from "react-icons/tb";
+import { DiSublime } from "react-icons/di";
 import { BsShare } from "react-icons/bs";
 import { AiOutlineInteraction } from "react-icons/ai";
 import { ImConnection } from "react-icons/im";
@@ -31,11 +31,11 @@ const Register = () => {
         {/* LEFT */}
         <div className='w-full lg:w-1/2 h-full p-10 2xl:px-20 flex flex-col justify-center '>
           <div className='w-full flex gap-2 items-center mb-6'>
-            <div className='p-2 bg-[#065ad8] rounded text-white'>
-              <TbSocial />
+          <div className='p-2 bg-[#76787a] rounded text-white'>
+              <DiSublime />
             </div>
-            <span className='text-2xl text-[#065ad8] ' font-semibold>
-              ShareFun
+            <span className='text-2xl text-[#b1b4b9] font-semibold'>
+              Swirl Connect
             </span>
           </div>
 
@@ -146,43 +146,27 @@ const Register = () => {
             Already has an account?{" "}
             <Link
               to='/login'
-              className='text-[#065ad8] font-semibold ml-2 cursor-pointer'
+              className='text-[#b1b4b9] font-semibold ml-2 cursor-pointer'
             >
               Login
             </Link>
           </p>
         </div>
         {/* RIGHT */}
-        <div className='hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-blue'>
+        <div className='hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-[#76787a]'>
           <div className='relative w-full flex items-center justify-center'>
             <img
               src={BgImage}
               alt='Bg Image'
               className='w-48 2xl:w-64 h-48 2xl:h-64 rounded-full object-cover'
             />
-
-            <div className='absolute flex items-center gap-1 bg-white right-10 top-10 py-2 px-5 rounded-full'>
-              <BsShare size={14} />
-              <span className='text-xs font-medium'>Share</span>
-            </div>
-
-            <div className='absolute flex items-center gap-1 bg-white left-10 top-6 py-2 px-5 rounded-full'>
-              <ImConnection />
-              <span className='text-xs font-medium'>Connect</span>
-            </div>
-
-            <div className='absolute flex items-center gap-1 bg-white left-12 bottom-6 py-2 px-5 rounded-full'>
-              <AiOutlineInteraction />
-              <span className='text-xs font-medium'>Interact</span>
-            </div>
           </div>
-
           <div className='mt-16 text-center'>
             <p className='text-white text-base'>
-              Connect with friedns & have share for fun
+              Make connections with friends and share the joy!
             </p>
             <span className='text-sm text-white/80'>
-              Share memories with friends and the world.
+              Share memorable moments with friends and beyond.
             </span>
           </div>
         </div>
