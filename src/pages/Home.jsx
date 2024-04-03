@@ -168,7 +168,7 @@ const Home = () => {
             {/* FRIEND REQUEST */}
             <div className='w-full bg-primary shadow-sm rounded-lg px-6 py-5'>
               <div className='flex items-center justify-between text-xl text-ascent-1 pb-2 border-b border-[#66666645]'>
-                <span> Friend Request</span>
+                <span> Follow Requests</span>
                 <span>{friendRequest?.length}</span>
               </div>
 
@@ -212,7 +212,7 @@ const Home = () => {
             {/* SUGGESTED FRIENDS */}
             <div className='w-full bg-primary shadow-sm rounded-lg px-5 py-5'>
               <div className='flex items-center justify-between text-lg text-ascent-1 border-b border-[#66666645]'>
-                <span>Friend Suggestion</span>
+                <span>Followers Suggestion</span>
               </div>
               <div className='w-full flex flex-col gap-4 pt-4'>
                 {suggestedFriends?.map((friend) => (

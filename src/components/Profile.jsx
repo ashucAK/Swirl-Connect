@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { LiaEditSolid } from "react-icons/lia";
+import { MdVerified } from "react-icons/md";
 import {
   BsBriefcase,
   BsFacebook,
@@ -81,9 +82,11 @@ const ProfileCard = ({ user }) => {
             <span className='text-ascent-1 text-lg'>{user?.views?.length} profile views</span>
           </div>
 
-          <span className='text-base text-blue'>
-            {user?.verified ? "Verified Account" : "Not Verified"}
+          <span className='text-base text-blue' style={{ display: 'inline-block' }}>
+            {user?.verified ? "Verified Account" : "Not Verified"} 
+            {user?.verified && <MdVerified style={{ display: 'inline-block', verticalAlign: 'middle' }} />}
           </span>
+
 
           <div className='flex items-center justify-between'>
             <span className='text-ascent-2'>Joined</span>
@@ -94,7 +97,7 @@ const ProfileCard = ({ user }) => {
         </div>
 
         <div className='w-full flex flex-col gap-4 py-4 pb-6'>
-          <p className='text-ascent-1 text-lg font-semibold'>Social Profile</p>
+          <p className='text-ascent-1 text-lg font-semibold'>Follow me on</p>
 
           <div className='flex gap-2 items-center text-ascent-2'>
             <BsInstagram className=' text-xl text-ascent-1' />

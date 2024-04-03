@@ -111,7 +111,6 @@ const Login = () => {
             </Link>
           </p>
         </div>
-        {/* RIGHT */}
         <div className='hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-[#76787a]'>
           <div className='relative w-full flex items-center justify-center'>
             <img
