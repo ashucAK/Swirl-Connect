@@ -38,6 +38,7 @@ const ProfileCard = ({ user }) => {
                 {user?.profession ?? "No Profession"}
               </span>
             </div>
+            
           </Link>
 
           <div className=''>
@@ -65,6 +66,13 @@ const ProfileCard = ({ user }) => {
           </div>
         </div>
 
+        <span className='text-base text-blue' style={{ display: 'inline-block' }}>
+            {user?.verified ? "Verified Account" : "Not Verified"} 
+            {user?.verified && <MdVerified style={{ display: 'inline-block', verticalAlign: 'middle' }} />}
+        </span>
+        
+        
+
         <div className='w-full flex flex-col gap-2 py-4 border-b border-[#66666645]'>
           <p className='text-xl text-ascent-1 font-semibold'>
             {user?.friends?.length} Followers
@@ -81,12 +89,6 @@ const ProfileCard = ({ user }) => {
           <div className='flex items-center justify-center'>
             <span className='text-ascent-1 text-lg'>{user?.views?.length} profile views</span>
           </div>
-
-          <span className='text-base text-blue' style={{ display: 'inline-block' }}>
-            {user?.verified ? "Verified Account" : "Not Verified"} 
-            {user?.verified && <MdVerified style={{ display: 'inline-block', verticalAlign: 'middle' }} />}
-          </span>
-
 
           <div className='flex items-center justify-between'>
             <span className='text-ascent-2'>Joined</span>
