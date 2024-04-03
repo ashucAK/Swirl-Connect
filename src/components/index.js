@@ -1,10 +1,10 @@
 import TextInput from "./TextInput";
 import Loading from "./Loading";
 import CustomButton from "./CustomButton";
-import TopBar from "./TopBar";
+import TopBar from "./Header";
 import ProfileCard from "./Profile";
 import FriendsCard from "./Followers";
-import PostCard from "./PostCard";
+import PostCard from "./Feed";
 import EditProfile from "./EditProfile";
 
 export {
